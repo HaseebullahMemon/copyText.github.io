@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html{
+    color: rgb(96,101, 123);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 25px;
+    margin-top: 70px;
+}
+h2{
+    color: rgba(5, 4, 4, 0.795);
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: -0.2px;
+}
+p{
+    max-width: 670px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+textarea{
+    width: 100%;
+    padding: 20px;
+    height: 250px;
+    position: relative;
+    resize: none; 
+    box-shadow: 0px 12px 48px 0px rgb(109 117 141/20%);  
+    border: 0.5px solid rgb(231,245,233);
+    border-radius: 16px;
+}
+textarea:focus{
+    outline: none;
+    border:  0.3px solid rgba(43,45,56, 0.3);
+}
+p,textarea{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+button{
+    background-color: rgb(17,166, 131);
+    color: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: -70px;
+    cursor: pointer;
+}
+button:focus,button:hover{
+    background-color: rgb(42,201,164);
+    box-shadow: 0 5px 30px 0 (0,0,0,0.3);
+}
+.character-counter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+
